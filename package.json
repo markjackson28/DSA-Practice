@@ -1,0 +1,19 @@
+{
+  "name": "dsa-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markjackson28/DSA-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markjackson28/DSA-Practice/issues"
+  },
+  "homepage": "https://github.com/markjackson28/DSA-Practice#readme"
+}
