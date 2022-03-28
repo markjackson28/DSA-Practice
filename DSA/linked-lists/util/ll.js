@@ -55,10 +55,10 @@ class LinkedList {
 }
 
 // Testing
-let LL = new LinkedList();
-LL.prepend(2);
-LL.prepend(1);
-LL.append(4);
-LL.appendBeforeVal(4, 3);
+// let LL = new LinkedList();
+// LL.prepend(2);
+// LL.prepend(1);
+// LL.append(4);
+// LL.appendBeforeVal(4, 3);
 
-console.log(JSON.stringify(LL));
+// console.log(JSON.stringify(LL));
