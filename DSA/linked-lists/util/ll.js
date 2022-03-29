@@ -111,11 +111,48 @@ class LinkedList {
   //   return reverseRec(next, ll);
   // }
 
+  // Iterative
+  sum(ll) {
+    if (ll === null) return null;
+    let curr = ll.head;
+    let sum = 0;
+
+    while (curr !== null) {
+      sum += curr.val;
+      curr = curr.next;
+    }
+    return sum;
+  }
+
+  findTarget(ll, target) {
+    if (ll === null) return null;
+    let curr = ll.head;
+
+    while (curr !== null) {
+      if (curr.val === target) return true;
+      curr = curr.next;
+    }
+    return false;
+  }
+  
+  findByIndex(ll, target) {
+    if (ll === null) return null;
+    let curr = ll.head;
+    let count = 0;
+
+    while (curr !== null) {
+      if (count === target) return curr.val;
+      count ++;
+      curr = curr.next;
+    }
+    return null;
+  }
+
   printList(ll) {
-    if(ll === null) return null;
+    if (ll === null) return null;
     let values = [];
     let curr = ll.head;
-    while(curr !== null) {
+    while (curr !== null) {
       values.push(curr.val);
       curr = curr.next;
     }
@@ -144,6 +181,13 @@ LL.appendAfter(5, 6);
 // let zipper = zipList.zipper(LL1, LL2);
 
 // let reverse = LL.reverse(LL);
-let print = LL.printList(LL);
+// let print = LL.printList(LL);
+// let sum = LL.sum(LL);
+// let trueTarget = LL.findTarget(LL, 5);
+// let falseTarget = LL.findTarget(LL, 10);
+let findByIndex = LL.findByIndex(LL, 6);
 
-console.log(JSON.stringify(print));
+// console.log(JSON.stringify(sum));
+// console.log(trueTarget);
+// console.log(falseTarget);
+console.log(findByIndex);
