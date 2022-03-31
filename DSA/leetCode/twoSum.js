@@ -56,16 +56,16 @@ let twoSum = (nums, target) => {
 //   }
 // };
 
-let nums = [2, 7, 11, 15];
-let target = 9;
-let nums2 = [3,2,4]
-let target2 = 6;
-let nums3 = [3,3]
-let target3 = 6;
-let test = twoSum(nums, target);
-let test2 = twoSum(nums2, target2);
-let test3 = twoSum(nums3, target3);
+// let nums = [2, 7, 11, 15];
+// let target = 9;
+// let nums2 = [3,2,4]
+// let target2 = 6;
+// let nums3 = [3,3]
+// let target3 = 6;
+// let test = twoSum(nums, target);
+// let test2 = twoSum(nums2, target2);
+// let test3 = twoSum(nums3, target3);
 
-console.log(test);
-console.log(test2);
-console.log(test3);
+// console.log(test);
+// console.log(test2);
+// console.log(test3);
