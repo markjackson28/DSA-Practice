@@ -52,6 +52,11 @@ class LinkedList {
     }
   }
 
+  removeHead() {
+    this.head = this.head.next;
+    return this.head;
+  }
+
   appendAfter(value, newValue) {
     let node = new Node(newValue);
     let curr = this.head;
@@ -134,7 +139,7 @@ class LinkedList {
     }
     return false;
   }
-  
+
   findByIndex(ll, target) {
     if (ll === null) return null;
     let curr = ll.head;
@@ -142,7 +147,7 @@ class LinkedList {
 
     while (curr !== null) {
       if (count === target) return curr.val;
-      count ++;
+      count++;
       curr = curr.next;
     }
     return null;
@@ -185,9 +190,10 @@ LL.appendAfter(5, 6);
 // let sum = LL.sum(LL);
 // let trueTarget = LL.findTarget(LL, 5);
 // let falseTarget = LL.findTarget(LL, 10);
-let findByIndex = LL.findByIndex(LL, 6);
+// let findByIndex = LL.findByIndex(LL, 6);
 
 // console.log(JSON.stringify(sum));
 // console.log(trueTarget);
 // console.log(falseTarget);
-console.log(findByIndex);
+// console.log(findByIndex);
+console.log(JSON.stringify(LL.removeHead()));

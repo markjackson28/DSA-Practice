@@ -14,7 +14,9 @@
 ### 🏠 [Homepage](https://github.com/markjackson28/DSA-Practice#readme)
 
 ## Table of Contents
-- [Linked Lists]()
+
+- [Linked Lists](DSA/linked-lists/README.md)
+- [LeetCode](DSA/leetCode/README.md)
 
 ## Install
 
