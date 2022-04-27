@@ -24,7 +24,7 @@ const validAnagram = (str1, str2) => {
     let char = str1[i];
     obj[char] ? obj[char] += 1 : obj[char] = 1;
   }
-  obj
+  
   for (let i = 0; i < str2.length; i++) {
     let char = str2[i];
     if (!obj[char]) {
