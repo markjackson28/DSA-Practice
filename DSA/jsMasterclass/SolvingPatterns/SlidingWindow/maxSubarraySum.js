@@ -19,7 +19,7 @@
 // Time: O(n^2)
 // Space: O(1)
 
-const maxSubarrayMax = (arr, n) => {
+const maxSubarraySum = (arr, n) => {
   if (arr.length < n) return null;
   let maxSum = 0;
   let tempSum = 0;
@@ -36,4 +36,19 @@ const maxSubarrayMax = (arr, n) => {
 // Time: O(n)
 // Space: O(1)
 
-console.log('test', maxSubarrayMax([1, 2, 5, 2, 8, 1, 5], 2))
+// function maxSubarraySum(arr, num){
+//   if (arr.length < num) return null;
+
+//   let total = 0;
+//   for (let i=0; i<num; i++){
+//      total += arr[i];
+//   }
+//   let currentTotal = total;
+//   for (let i = num; i < arr.length; i++) {
+//      currentTotal += arr[i] - arr[i-num];
+//      total = Math.max(total, currentTotal);
+//   }
+//   return total;
+// }
+
+console.log('test', maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2))
