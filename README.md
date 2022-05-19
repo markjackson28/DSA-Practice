@@ -36,6 +36,10 @@ npm run test
 
 * Github: [@markjackson28](https://github.com/markjackson28)
 
+## Resources
+
+- [The Missing Computer Science and Coding Interview Bootcamp](https://www.udemy.com/share/101XY23@QA_chm_gIqPizNbCXElIdUcxaOKrvDFPoiLZnSh5SD141AEllh_CnAZJEYgRdwd-/)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/markjackson28/DSA-Practice/issues). You can also take a look at the [contributing guide](https://github.com/markjackson28/DSA-Practice/blob/master/CONTRIBUTING.md).
