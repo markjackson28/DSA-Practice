@@ -1,5 +1,7 @@
 'use strict';
 
+// Swaps lowest and repeats
+
 // const selectionSort = (arr) => {
 //   for (let i = 0; i < arr.length; i++) {
 //     let lowest = i;
