@@ -18,13 +18,14 @@
 let plusOne = (digits) => {
   if (!digits) return 0;
 
-  let join = digits.join();
+  let joinedInts = parseInt(digits.join(''));
+  joinedInts
+  let result = Array.from(String(joinedInts), Number);
 
-  join
-
-  return digits;
+  return result;
 };
 
-console.log('test', plusOne([1, 2, 3]));
-// console.log('test', plusOne([9]));
+// console.log('test', plusOne([1, 2, 3]));
+// console.log('test', plusOne([4, 3, 2, 1]));
 // console.log('test', plusOne([9, 9]));
+// console.log('test', plusOne([6, 1, 4, 5, 3, 9, 0, 1, 9, 5, 1, 8, 6, 7, 0, 5, 5, 4, 3]))
