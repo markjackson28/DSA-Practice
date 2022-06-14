@@ -42,6 +42,7 @@ Thus, the result should be [1,0].
 ## Links
 
 - [Plus One Challenge Link](https://leetcode.com/problems/plus-one/)
+- [Array.from MDN Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 
 ## Collaborators
 
