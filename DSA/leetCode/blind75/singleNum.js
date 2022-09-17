@@ -33,15 +33,19 @@ let singleNumber = (nums) => {
     ref[curr] ? ref[curr] += 1 : ref[curr] = 1;
   }
 
-  let num = Object.values(ref);
+  // Call the Object.keys() method to get an array of the object's keys.
+  // Use the find() method to find the key that corresponds to the value.
+  // The find method will return the first key that satisfies the condition.
 
-  // return Object.values(ref);
+  return Object.keys(ref).find(key => ref[key] === 1);
 };
 
 let nums1 = [2, 2, 1];
-// let nums2 = [4, 1, 2, 1, 2]
-// let nums3 = [1];
+let nums2 = [4, 1, 2, 1, 2]
+let nums3 = [1];
 
 console.log(singleNumber(nums1));
-// console.log(singleNumber(nums2));
-// console.log(singleNumber(nums3));
+console.log(singleNumber(nums2));
+console.log(singleNumber(nums3));
+
+// ref: https://bobbyhadz.com/blog/javascript-get-object-key-by-value
